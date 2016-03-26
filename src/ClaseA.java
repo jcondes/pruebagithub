@@ -5,7 +5,7 @@ public class ClaseA {
 	private String apellidos = "";
 	
 	public ClaseA(){
-		this.nombre = "Jose";
+		this.setNombre("Jose");
 		this.apellidos = "Martinez";
 	}
 
@@ -13,6 +13,14 @@ public class ClaseA {
 		
 		ClaseA ca = new ClaseA();
 
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 }
